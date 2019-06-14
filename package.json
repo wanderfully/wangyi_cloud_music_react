@@ -57,6 +57,7 @@
     "react-router-dom": "^5.0.0",
     "react-svg": "^9.0.4",
     "react-swipes": "^1.1.0",
+    "reactjs-swiper": "^0.1.0",
     "resolve": "1.6.0",
     "sass-loader": "^7.1.0",
     "source-map-loader": "^0.2.1",

@@ -47,8 +47,14 @@
             margin-bottom: 30px;
             .img_wraper{
                 width: 300px;
+                position: relative;
                 img{
                     width: 100%;
+                }
+                i{
+                    position: absolute;
+                    right: 10px;
+                    top:10px;
                 }
             }
             .des_wraper{

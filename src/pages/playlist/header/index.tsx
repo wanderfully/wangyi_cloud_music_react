@@ -14,6 +14,7 @@ class Header extends React.Component<IProps>{
     goBack: React.MouseEventHandler = e => {
         this.props.history.goBack();
     }
+    
     render(){
         const {imgurl } = this.props;
         return(

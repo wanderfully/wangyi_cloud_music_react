@@ -108,8 +108,7 @@ class App extends React.Component<IProps>{
                 <div className="custom_wraper">
                     
                     <div className='music_list'>
-                        <h3 className="music_list_title">推荐歌单</h3>
-                            <ul>
+                            <ul className="order_list">
                                 {
                                     Array(22).fill(1).map((item,index) => {
                                         return(

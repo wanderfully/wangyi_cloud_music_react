@@ -1,0 +1,17 @@
+.swiper-container {
+    height: 280px;
+    .swiper-wrapper{
+        .slider-item{
+            .slide-content{
+                height: 100%;
+                .swiper-img{
+                    width: 100%!important;
+                    height: 100%;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+} 
+.banner{
+}

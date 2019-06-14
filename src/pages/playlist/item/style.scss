@@ -1,0 +1,31 @@
+.songItem{
+    display: flex;
+    line-height: 1;
+    padding-bottom: 20px;
+    .song_num{
+        font-size: 34px;
+        width: 100px;
+        line-height: 80px;
+        align-items: center;
+        flex-shrink:0;
+        justify-content: center;
+        color: #777;
+    }
+    .song_info{
+        padding-right: 60px;
+        padding-bottom: 16px;
+        border-bottom: 1px solid #ccc;
+        flex-grow:1;
+        text-align: left;
+        .song_name{
+            color: #555;
+            font-size: 34px;
+            font-weight: normal;
+            margin-bottom: 14px;
+        }
+        .song_author{
+            font-size: 24px;
+            color: #777;
+        }
+    }
+}

@@ -1,0 +1,55 @@
+$ncmRed: #e24e48; // netease cloud music red
+$headerBarHeight: 100px;
+$bottomBarHeight: 100px;
+$backGround: #e24e48;
+
+@font-face {
+  font-family: 'iconfont-cloud-music'; /* project id 669459 */
+  src: url('//at.alicdn.com/t/font_669459_rskbi91kov.eot');
+  src: url('//at.alicdn.com/t/font_669459_rskbi91kov.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_669459_rskbi91kov.woff') format('woff'),
+    url('//at.alicdn.com/t/font_669459_rskbi91kov.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_669459_rskbi91kov.svg#iconfont-cloud-music') format('svg');
+}
+
+$base-font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, 'PingFang SC', 'Hiragino Sans GB',
+  STHeiti, 'Microsoft YaHei', 'Microsoft JhengHei', 'Source Han Sans SC', 'Noto Sans CJK SC', 'Source Han Sans CN',
+  'Noto Sans SC', 'Source Han Sans TC', 'Noto Sans CJK TC', 'WenQuanYi Micro Hei', SimSun, sans-serif;
+
+:global {
+  
+  html,
+  body,
+  #root {
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    font-size: 24px;
+    font-family: $base-font-family;
+    outline: 0;
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: transparent;
+    color: #333;
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  img {
+    content: normal !important;
+  }
+
+  .iconfont-ncm {
+    font-family: 'iconfont-cloud-music' !important;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@function height-by-width($width) {
+  @return (750 / 1334 * $width) * 1px;
+}

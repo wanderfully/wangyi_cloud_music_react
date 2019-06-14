@@ -1,0 +1,60 @@
+.playlist_wraper{
+    height: 100vh;
+    .backgray{
+        height: calc(100vh - 100px);
+        background: #666;
+    }
+    .img_background{
+        position: absolute;
+        height: 40vh;
+        width: 100vw;
+        background-image: url('http://p2.music.126.net/RtzNQKdsng1zK0DSrNaymw==/109951164025118266.jpg');
+        background-size: 100% auto;
+        filter: blur(2vw);
+        z-index: 1;
+        top: 0;
+    }
+    .top_wraper{
+        position: absolute;
+        height: calc(100vh - 100px);
+        overflow-y: auto;
+        margin-bottom: 120px;
+        padding-top: 100px;
+        z-index: 2;
+        
+        .item_wraper{
+            width: 100vw;
+            border-radius: 30px;
+            background: #fff;
+            min-height: 30vh;
+            font-size: 32px;
+            .list_title{
+                display: flex;
+                padding: 30px 0;
+                .iconfont-ncm{
+                    width: 100px;
+                    line-height: 50px;
+                }
+            }
+        }
+        .menu_wraper{
+            display: flex;
+            align-items: center;
+            color: #fff;
+            font-size: 30px;
+            font-weight: 600;
+            padding: 2px 30px;
+            margin-bottom: 30px;
+            .img_wraper{
+                width: 300px;
+                img{
+                    width: 100%;
+                }
+            }
+            .des_wraper{
+                padding: 10px 30px;
+            }
+        }
+    }
+   
+}

@@ -1,0 +1,10 @@
+{
+  "env": {
+      "browser": true,
+      "es6": true,
+      "node": true,
+      "commonjs": true
+  },
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "defaultSeverity": "none"
+}

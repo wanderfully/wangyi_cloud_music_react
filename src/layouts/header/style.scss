@@ -1,0 +1,29 @@
+.header{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e24e48;
+    a{
+        position: absolute;
+        right: 20px;
+        .iconfont-ncm{
+            font-size: 50px;
+            font-weight: normal;
+        }
+    }
+    input{
+        display: block;
+        width: 70%;
+        height: 50px;
+        outline: none;
+        border-radius: 40px;
+        text-indent: 30px;
+        border:none;
+        background-color: hsla(0,0%,93%,.3);
+        color: #eee;
+    }
+    input::-webkit-input-placeholder{
+        color:#ccc;
+    }
+}

@@ -1,0 +1,56 @@
+.headerplay_wraper{
+    overflow: hidden;
+    height: 100px;
+    background: #666;
+}
+.headerplay{
+    
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    a{
+        position: absolute;
+        right: 20px;
+        .iconfont-ncm{
+            font-size: 50px;
+            font-weight: normal;
+        }
+    }
+    a.icon_cancle{
+        width: 60px;
+        position: absolute;
+        left: 20px;
+        .iconfont-ncm{
+            font-size: 34px;
+            font-weight: normal;
+        }
+    }
+    input{
+        display: block;
+        width: 70%;
+        height: 50px;
+        outline: none;
+        border-radius: 40px;
+        text-indent: 30px;
+        border:none;
+        background-color: hsla(0,0%,93%,.3);
+        color: #eee;
+    }
+    input::-webkit-input-placeholder{
+        color:#ccc;
+    }
+}
+.header_background{
+    
+    height: 10px;
+    width: 100vw;
+    // background: url('http://p2.music.126.net/RtzNQKdsng1zK0DSrNaymw==/109951164025118266.jpg');
+    background-size: 100% auto;
+    filter: blur(2vw);
+    top: 0;
+    
+}

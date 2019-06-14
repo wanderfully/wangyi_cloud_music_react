@@ -32,12 +32,12 @@ class App extends React.Component<IProps>{
                 newLoading:true,
             })
         });
+    }
+    getOrderItem(idx:any){
         aGet(apis.list,{
-            idx:1
+            idx:idx
         }).then((res:any) => {
-            this.setState({
-                orderList:res.result
-            })
+            return res
         });
     }
     componentWillUnmount(){
@@ -112,9 +112,12 @@ class App extends React.Component<IProps>{
                             <ul>
                                 {
                                     Array(22).fill(1).map((item,index) => {
-                                        <li>
-                                            <OrderItem ></OrderItem>
-                                        </li>
+                                        return(
+                                            <li key={index}>
+                                                <OrderItem idx={index}></OrderItem>
+                                            </li>
+                                        )
+                                        
                                     })
                                 }   
                             </ul>

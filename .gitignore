@@ -19,3 +19,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# 自己添加过滤
+/.history
+**/.history
+**/node_modules
+*.log
+*.log.*

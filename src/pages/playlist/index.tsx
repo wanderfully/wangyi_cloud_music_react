@@ -71,7 +71,7 @@ class Playlist extends React.Component<IState>{
                                         });
                                         let author = temp.join(',')
                                         return(
-                                            <Item key={index+1}  indexs={index+1} name={itemer.name} author = {author}></Item>
+                                            <Item key={index+1}  indexs={index+1} name={itemer.name} author = {author} id={item.id} playing_img={item.al.picUrl}></Item>
                                         )
                                     })
                                 }

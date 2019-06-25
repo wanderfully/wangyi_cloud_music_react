@@ -1,1 +1,1 @@
-#网易云音乐 react  + typescript 
+#网易云音乐 react  

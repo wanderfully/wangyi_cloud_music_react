@@ -19,6 +19,7 @@ type Iapis = {
     songUrl: IApi
     songUrlBackUp: IApi
     list: IApi
+    songUrls: IApi
 }
 const prox_host = process.env.NODE_ENV === 'production' ? 'http://118.24.21.99:4001' : '/api'
 
@@ -32,7 +33,11 @@ const cloud_api: Iapis = {
     },
     //歌曲url
     songUrl: {
-        path: '/music/url?id=:ids'
+        path: '/music/url?id=:id'
+    },
+    //音乐 url
+    songUrls: {
+        path: '/song/url?id=:id'
     },
     //歌曲详情
     songDetail: {

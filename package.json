@@ -50,7 +50,7 @@
     "promise": "8.0.1",
     "raf": "3.4.0",
     "react": "^16.8.6",
-    "react-dev-utils": "^5.0.2",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^16.8.6",
     "react-inlinesvg": "^0.8.4",
     "react-live-route": "^3.0.7",
